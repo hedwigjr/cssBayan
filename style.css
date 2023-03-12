@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 body{
     background-color: azure;
 }
@@ -10,8 +12,13 @@ body{
     max-width: 1000px;
     max-height: 720px;
 }
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
 p {
-    font-size: 4vh;
+    padding: 10px 0 10px 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
     color: blue;
 }
 img{
@@ -19,7 +26,6 @@ img{
     padding-top: 30px;
     margin: 0 auto;
     max-height: 250px;
-    max-width:300px;
 }
 
 input[name="r"] {
@@ -28,12 +34,12 @@ input[name="r"] {
      margin: 0;
 }
 .nameContainer {    height: 30px;
-    border-top: 1px black solid;
+    border-top: 1px gray solid;
 }
 .wrapperImg {
     overflow: hidden;
     height: 0px;
-    border-bottom: 1px black solid;
+    border-bottom: 1px gray solid;
 }
 .wrapperImg  img{
     padding-bottom: 30px;
@@ -56,7 +62,11 @@ input[name="r"] {
 }
 
 .bar:active .nameContainer p{
+    
      color: blue 
+}
+.bar:active  {
+    cursor: progress;
 }
 
 
