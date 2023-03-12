@@ -1,1 +1,1 @@
-deploy: https://hedwigjr.github.io/cssBayan/cssBayan/
+deploy: https://hedwigjr.github.io/cssBayan/
